@@ -1,0 +1,453 @@
+#wolverine {
+    width: 280px;
+    overflow: visible;
+    border: 1px solid #ccc;
+    padding: 0px 0 50px 0;
+    margin: 0 auto 40px;
+    text-align: center;
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(top, #fff, #e6e6e6);
+    background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top, #fff, #e6e6e6);
+    background-image: -o-linear-gradient(top, #fff, #e6e6e6);
+    background-image: linear-gradient(top, #fff, #e6e6e6);
+    background-repeat: repeat-x;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    -moz-box-shadow: 0 1px 1px #bababa;
+    -webkit-box-shadow: 0 1px 1px #bababa;
+    box-shadow: 0 1px 1px #bababa;
+}
+#wolverine-head-box {
+    height: 300px;
+    padding-top: 50px;
+}
+
+#wolverine-top {
+    height: 255px;
+    margin-bottom: -30px;
+}
+#wolverine-nose {
+    width: 15px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: yellow;
+    border-bottom: 4px solid orange;
+    position: relative;
+    -webkit-border-top-left-radius: 60px;
+    -webkit-border-top-right-radius: 60px;
+    -webkit-border-bottom-left-radius: 90px;
+    -webkit-border-bottom-right-radius: 90px;
+    -moz-border-radius-topleft: 60px;
+    -moz-border-radius-topright: 60px;
+    -moz-border-radius-bottomleft: 90px;
+    -moz-border-radius-bottomright: 90px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    -webkit-box-shadow: 0 12px 5px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 12px 5px rgba(0, 0, 0, .5);
+    box-shadow: 0 12px 5px rgba(0, 0, 0, .5);
+}
+#wolverine-lowerface {
+    background: red;
+}
+
+#wolverine-nosecover {
+    width: 0;
+    height: 0;
+    margin-bottom: -245px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 50px solid yellow;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    position: relative;
+    z-index: 99999999999999;
+}
+#wolverine-sideburns {
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 105px;
+    position: relative;
+    z-index: 9999;
+}
+
+#wolverine-sideburn-r {
+    width: 10px;
+    height: 75px;
+    margin-top: -170px;
+    float: right;
+    border-right: 30px solid #000;
+    position: relative;
+    z-index: 9999;
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-bottom-right-radius: 550px;
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-bottomright: 550px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 550px;
+}
+#wolverine-sideburn-l {
+    width: 10px;
+    height: 75px;
+    float: left;
+    border-left: 30px solid #000;
+    position: relative;
+    margin-top: -170px;
+    z-index: 9999;
+    -webkit-border-bottom-left-radius: 550px;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 550px;
+    -moz-border-radius-bottomright: 0;
+    border-bottom-left-radius: 550px;
+    border-bottom-right-radius: 0;
+}
+#wolverine-ear-r {
+    width: 120px;
+    height: 220px;
+    float: right;
+    margin-left: -450px;
+    margin-right: -10px;
+    border-right: 70px solid #000;
+    position: relative;
+    z-index: 9999;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 550px;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 550px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 550px;
+    -moz-transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    -ms-transform: rotate (40deg);
+    transform: rotate(40deg);
+}
+#wolverine-ear-l {
+    width: 120px;
+    height: 220px;
+    float: left;
+    margin-left: -10px;
+    margin-right: -450px;
+    border-left: 70px solid #000;
+    position: relative;
+    z-index: 9999;
+    -webkit-border-top-left-radius: 550px;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius-topleft: 550px;
+    -moz-border-radius-topright: 0;
+    border-top-left-radius: 550px;
+    border-top-right-radius: 0;
+    -moz-transform: rotate(-40deg);
+    -webkit-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+}
+#wolverine-eye-l {
+    margin-top: 210px;
+    margin-left: 90px;
+    background: #eee;
+    padding: 4px 12px;
+    float: left;
+    position: relative;
+    z-index: 999999;
+    -webkit-border-top-left-radius: 60px;
+    -webkit-border-top-right-radius: 60px;
+    -webkit-border-bottom-left-radius: 90px;
+    -webkit-border-bottom-right-radius: 90px;
+    -moz-border-radius-topleft: 60px;
+    -moz-border-radius-topright: 60px;
+    -moz-border-radius-bottomleft: 90px;
+    -moz-border-radius-bottomright: 90px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate (10deg);
+    transform: rotate(10deg);
+    -webkit-box-shadow: -5px 5px 10px rgba(0, 5, 201, 1);
+    -moz-box-shadow: -5px 5px 10px rgba(0, 5, 201, 1);
+    box-shadow: -5px 5px 10px rgba(0, 5, 201, 1);
+}
+#wolverine-eye-r {
+    margin-top: 210px;
+    margin-right: 90px;
+    background: #eee;
+    padding: 4px 12px;
+    float: right;
+    position: relative;
+    z-index: 999999;
+    -webkit-border-top-left-radius: 60px;
+    -webkit-border-top-right-radius: 60px;
+    -webkit-border-bottom-left-radius: 90px;
+    -webkit-border-bottom-right-radius: 90px;
+    -moz-border-radius-topleft: 60px;
+    -moz-border-radius-topright: 60px;
+    -moz-border-radius-bottomleft: 90px;
+    -moz-border-radius-bottomright: 90px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate (-10deg);
+    transform: rotate(-10deg);
+    -webkit-box-shadow: 5px 5px 10px rgba(0, 5, 201, 1);
+    -moz-box-shadow: 5px 5px 10px rgba(0, 5, 201, 1);
+    box-shadow: 5px 5px 10px rgba(0, 5, 201, 1);
+}
+#wolverine-head {
+    width: 176px;
+    height: 140px;
+    margin-left: auto;
+    margin-top: -210px;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 999;
+    background: yellow;
+    background: -moz-radial-gradient(center, ellipse cover, #f9e548 1%, #f2bd0e 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%, #f9e548), color-stop(100%, #f2bd0e));
+    background: -webkit-radial-gradient(center, ellipse cover, #f9e548 1%, #f2bd0e 100%);
+    background: -o-radial-gradient(center, ellipse cover, #f9e548 1%, #f2bd0e 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #f9e548 1%, #f2bd0e 100%);
+    background: radial-gradient(center, ellipse cover, #f9e548 1%, #f2bd0e 100%);
+    -moz-border-radius: 190px/290px;
+    -webkit-border-radius: 190px/290px;
+    border-radius: 190px/290px;
+    -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+}
+#wolverine-face {
+    width: 130px;
+    height: 20px;
+    margin-top: -30px;
+    padding-bottom: 66px;
+    padding-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid #fff;
+    background: #fca7a7;
+    background: -moz-radial-gradient(center, ellipse cover, #febbbb 0%, #fe9090 45%, #febbbb 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #febbbb), color-stop(45%, #fe9090), color-stop(100%, #febbbb));
+    background: -webkit-radial-gradient(center, ellipse cover, #febbbb 0%, #fe9090 45%, #febbbb 100%);
+    background: -o-radial-gradient(center, ellipse cover, #febbbb 0%, #fe9090 45%, #febbbb 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #febbbb 0%, #fe9090 45%, #febbbb 100%);
+    background: radial-gradient(center, ellipse cover, #febbbb 0%, #fe9090 45%, #febbbb 100%);
+    -webkit-border-top-left-radius: 60px;
+    -webkit-border-top-right-radius: 60px;
+    -webkit-border-bottom-left-radius: 90px;
+    -webkit-border-bottom-right-radius: 90px;
+    -moz-border-radius-topleft: 60px;
+    -moz-border-radius-topright: 60px;
+    -moz-border-radius-bottomleft: 90px;
+    -moz-border-radius-bottomright: 90px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+#wolverine-chin {
+    width: 50px;
+    height: 20px;
+    margin-top: -8px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #fca7a7;
+    border-bottom: 1px solid #fff;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 90px;
+    -webkit-border-bottom-right-radius: 90px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomleft: 90px;
+    -moz-border-radius-bottomright: 90px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+#wolverine-mouth {
+    width: 65px;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#wolverine-mouthin {
+    background: darkred;
+    clear: both;
+    overflow: hidden;
+    -webkit-border-top-left-radius: 60px;
+    -webkit-border-top-right-radius: 60px;
+    -webkit-border-bottom-left-radius: 90px;
+    -webkit-border-bottom-right-radius: 90px;
+    -moz-border-radius-topleft: 60px;
+    -moz-border-radius-topright: 60px;
+    -moz-border-radius-bottomleft: 90px;
+    -moz-border-radius-bottomright: 90px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+#wolverine-top-teeth {
+    width: 55px;
+    height: 10px;
+    margin-top: -6px;
+    margin-bottom: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    -webkit-border-top-left-radius: 1200px;
+    -webkit-border-top-right-radius: 1200px;
+    -moz-border-radius-topleft: 1200px;
+    -moz-border-radius-topright: 1200px;
+    border-top-left-radius: 1200px;
+    border-top-right-radius: 1200px;
+}
+#wolverine-bottom-teeth {
+    width: 50px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    -webkit-border-bottom-left-radius: 1200px;
+    -webkit-border-bottom-right-radius: 1200px;
+    -moz-border-radius-bottomleft: 1200px;
+    -moz-border-radius-bottomright: 1200px;
+    border-bottom-left-radius: 1200px;
+    border-bottom-right-radius: 1200px;
+}
+#wolverine-neck {
+    width: 90px;
+    height: 60px;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 222;
+    background: yellow;
+    background: -moz-linear-gradient(left, #f9e548 1%, #f2bd0e 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(1%, #f9e548), color-stop(100%, #f2bd0e));
+    background: -webkit-linear-gradient(left, #f9e548 1%, #f2bd0e 100%);
+    background: -o-linear-gradient(left, #f9e548 1%, #f2bd0e 100%);
+    background: -ms-linear-gradient(left, #f9e548 1%, #f2bd0e 100%);
+    background: linear-gradient(left, #f9e548 1%, #f2bd0e 100%);
+    -moz-border-radius: 600px/235px;
+    -webkit-border-radius: 600px/235px;
+    border-radius: 600px/235px;
+    -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+}
+#wolverine-shoulders {
+    width: 250px;
+    height: 70px;
+    margin-top: -30px;
+    margin-bottom: -140px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 33;
+    background: yellow;
+    background: -moz-radial-gradient(center, ellipse cover, #f9e548 1%, #f2bd0e 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%, #f9e548), color-stop(100%, #f2bd0e));
+    background: -webkit-radial-gradient(center, ellipse cover, #f9e548 1%, #f2bd0e 100%);
+    background: -o-radial-gradient(center, ellipse cover, #f9e548 1%, #f2bd0e 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #f9e548 1%, #f2bd0e 100%);
+    background: radial-gradient(center, ellipse cover, #f9e548 1%, #f2bd0e 100%);
+    -webkit-border-top-left-radius: 75px;
+    -webkit-border-top-right-radius: 75px;
+    -moz-border-radius-topleft: 75px;
+    -moz-border-radius-topright: 75px;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+}
+
+#wolverine-hand-l {
+    width: 125px;
+    height: 140px;
+    overflow: hidden;
+    float: left;
+    padding-left: 30px;
+    margin-left: -15px;
+}
+#wolverine-hand-r {
+    width: 125px;
+    height: 140px;
+    overflow: hidden;
+    float: right;
+    padding-right: 30px;
+    margin-right: -15px;
+}
+.wolverine-claw-l {
+    border-left: 1px solid #000;
+    float: left;
+    margin-left: 5px;
+    position: relative;
+    z-index: 999;
+    padding: 160px 9px 5px 4px;
+    background: #e2e2e2;
+    background: -moz-linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #e2e2e2), color-stop(50%, #dbdbdb), color-stop(51%, #d1d1d1), color-stop(100%, #fefefe));
+    background: -webkit-linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    background: -o-linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    background: -ms-linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    background: linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    -webkit-border-top-left-radius: 80px;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius-topleft: 80px;
+    -moz-border-radius-topright: 0;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 0;
+    -moz-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+.wolverine-claw-r {
+    border-right: 1px solid #000;
+    float: right;
+    margin-right: 5px;
+    position: relative;
+    z-index: 999;
+    padding: 160px 4px 5px 9px;
+    background: #e2e2e2;
+    background: -moz-linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #e2e2e2), color-stop(50%, #dbdbdb), color-stop(51%, #d1d1d1), color-stop(100%, #fefefe));
+    background: -webkit-linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    background: -o-linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    background: -ms-linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    background: linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 80px;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 80px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 80px;
+    -moz-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
